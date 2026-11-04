@@ -1,0 +1,5 @@
+# Ejemplo opcional para Apache: renombre este archivo a .htaccess
+Options -Indexes
+<FilesMatch "^(README\.txt|\.env)$">
+  Require all denied
+</FilesMatch>
